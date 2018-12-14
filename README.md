@@ -15,7 +15,8 @@ This Makefile was kindly provided by [@Foone](https://twitter.com/Foone).
 
 ### Usage
 
-Run ``trans.com`` on a system with CGA compatible graphics, or inside your favorite DOS emulator (DOSBox et al). Exit the program by pressing ESC.
+Run ``trans.com`` on a system with CGA compatible graphics, or inside your favorite DOS emulator (DOSBox et al).  
+Exit the program by pressing ESC.
 
 ### Why?
 
