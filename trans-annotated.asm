@@ -10,7 +10,7 @@ start:
 
 mainloop:
 		cwd
-		mov ax,di       ; get screen position (row*width+column) into AX
+		mov ax,di       ; get screen position into AX
 		and ax,0x1fff   ; mask off the top bits of our pixel index so the second interlaced framebuffer gets treated the same as the first
 		mov bx,1600     ; put 1600 into BX - this is how many bytes each stripe of the flag takes up in a framebuffer
 		div bx          ; divide the pixel coordinate by 1600, so now we know which row our pixel is on, numbered 0,1,2,3,4
